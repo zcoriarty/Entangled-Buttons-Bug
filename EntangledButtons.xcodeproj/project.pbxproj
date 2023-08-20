@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BCC66382A92578100C91AA9 /* EntangledButtonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC66372A92578100C91AA9 /* EntangledButtonsApp.swift */; };
+		9BCC663A2A92578100C91AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC66392A92578100C91AA9 /* ContentView.swift */; };
+		9BCC663C2A92578300C91AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC663B2A92578300C91AA9 /* Assets.xcassets */; };
+		9BCC66402A92578300C91AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC663F2A92578300C91AA9 /* Preview Assets.xcassets */; };
+		9BCC664A2A92578400C91AA9 /* EntangledButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC66492A92578400C91AA9 /* EntangledButtonsTests.swift */; };
+		9BCC66542A92578400C91AA9 /* EntangledButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC66532A92578400C91AA9 /* EntangledButtonsUITests.swift */; };
+		9BCC66562A92578400C91AA9 /* EntangledButtonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC66552A92578400C91AA9 /* EntangledButtonsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BCC66462A92578400C91AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCC662C2A92578100C91AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCC66332A92578100C91AA9;
+			remoteInfo = EntangledButtons;
+		};
+		9BCC66502A92578400C91AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCC662C2A92578100C91AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BCC66332A92578100C91AA9;
+			remoteInfo = EntangledButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BCC66342A92578100C91AA9 /* EntangledButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EntangledButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC66372A92578100C91AA9 /* EntangledButtonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntangledButtonsApp.swift; sourceTree = "<group>"; };
+		9BCC66392A92578100C91AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BCC663B2A92578300C91AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BCC663D2A92578300C91AA9 /* EntangledButtons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EntangledButtons.entitlements; sourceTree = "<group>"; };
+		9BCC663F2A92578300C91AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BCC66452A92578400C91AA9 /* EntangledButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntangledButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC66492A92578400C91AA9 /* EntangledButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntangledButtonsTests.swift; sourceTree = "<group>"; };
+		9BCC664F2A92578400C91AA9 /* EntangledButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntangledButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC66532A92578400C91AA9 /* EntangledButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntangledButtonsUITests.swift; sourceTree = "<group>"; };
+		9BCC66552A92578400C91AA9 /* EntangledButtonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntangledButtonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCC66312A92578100C91AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC66422A92578400C91AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC664C2A92578400C91AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCC662B2A92578100C91AA9 = {
+			isa = PBXGroup;
+			children = (
+				9BCC66362A92578100C91AA9 /* EntangledButtons */,
+				9BCC66482A92578400C91AA9 /* EntangledButtonsTests */,
+				9BCC66522A92578400C91AA9 /* EntangledButtonsUITests */,
+				9BCC66352A92578100C91AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCC66352A92578100C91AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC66342A92578100C91AA9 /* EntangledButtons.app */,
+				9BCC66452A92578400C91AA9 /* EntangledButtonsTests.xctest */,
+				9BCC664F2A92578400C91AA9 /* EntangledButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCC66362A92578100C91AA9 /* EntangledButtons */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC66372A92578100C91AA9 /* EntangledButtonsApp.swift */,
+				9BCC66392A92578100C91AA9 /* ContentView.swift */,
+				9BCC663B2A92578300C91AA9 /* Assets.xcassets */,
+				9BCC663D2A92578300C91AA9 /* EntangledButtons.entitlements */,
+				9BCC663E2A92578300C91AA9 /* Preview Content */,
+			);
+			path = EntangledButtons;
+			sourceTree = "<group>";
+		};
+		9BCC663E2A92578300C91AA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC663F2A92578300C91AA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BCC66482A92578400C91AA9 /* EntangledButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC66492A92578400C91AA9 /* EntangledButtonsTests.swift */,
+			);
+			path = EntangledButtonsTests;
+			sourceTree = "<group>";
+		};
+		9BCC66522A92578400C91AA9 /* EntangledButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC66532A92578400C91AA9 /* EntangledButtonsUITests.swift */,
+				9BCC66552A92578400C91AA9 /* EntangledButtonsUITestsLaunchTests.swift */,
+			);
+			path = EntangledButtonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCC66332A92578100C91AA9 /* EntangledButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC66592A92578400C91AA9 /* Build configuration list for PBXNativeTarget "EntangledButtons" */;
+			buildPhases = (
+				9BCC66302A92578100C91AA9 /* Sources */,
+				9BCC66312A92578100C91AA9 /* Frameworks */,
+				9BCC66322A92578100C91AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EntangledButtons;
+			productName = EntangledButtons;
+			productReference = 9BCC66342A92578100C91AA9 /* EntangledButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BCC66442A92578400C91AA9 /* EntangledButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC665C2A92578400C91AA9 /* Build configuration list for PBXNativeTarget "EntangledButtonsTests" */;
+			buildPhases = (
+				9BCC66412A92578400C91AA9 /* Sources */,
+				9BCC66422A92578400C91AA9 /* Frameworks */,
+				9BCC66432A92578400C91AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BCC66472A92578400C91AA9 /* PBXTargetDependency */,
+			);
+			name = EntangledButtonsTests;
+			productName = EntangledButtonsTests;
+			productReference = 9BCC66452A92578400C91AA9 /* EntangledButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BCC664E2A92578400C91AA9 /* EntangledButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC665F2A92578400C91AA9 /* Build configuration list for PBXNativeTarget "EntangledButtonsUITests" */;
+			buildPhases = (
+				9BCC664B2A92578400C91AA9 /* Sources */,
+				9BCC664C2A92578400C91AA9 /* Frameworks */,
+				9BCC664D2A92578400C91AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BCC66512A92578400C91AA9 /* PBXTargetDependency */,
+			);
+			name = EntangledButtonsUITests;
+			productName = EntangledButtonsUITests;
+			productReference = 9BCC664F2A92578400C91AA9 /* EntangledButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCC662C2A92578100C91AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9BCC66332A92578100C91AA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9BCC66442A92578400C91AA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9BCC66332A92578100C91AA9;
+					};
+					9BCC664E2A92578400C91AA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9BCC66332A92578100C91AA9;
+					};
+				};
+			};
+			buildConfigurationList = 9BCC662F2A92578100C91AA9 /* Build configuration list for PBXProject "EntangledButtons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BCC662B2A92578100C91AA9;
+			productRefGroup = 9BCC66352A92578100C91AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCC66332A92578100C91AA9 /* EntangledButtons */,
+				9BCC66442A92578400C91AA9 /* EntangledButtonsTests */,
+				9BCC664E2A92578400C91AA9 /* EntangledButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCC66322A92578100C91AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC66402A92578300C91AA9 /* Preview Assets.xcassets in Resources */,
+				9BCC663C2A92578300C91AA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC66432A92578400C91AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC664D2A92578400C91AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCC66302A92578100C91AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC663A2A92578100C91AA9 /* ContentView.swift in Sources */,
+				9BCC66382A92578100C91AA9 /* EntangledButtonsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC66412A92578400C91AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC664A2A92578400C91AA9 /* EntangledButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCC664B2A92578400C91AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC66542A92578400C91AA9 /* EntangledButtonsUITests.swift in Sources */,
+				9BCC66562A92578400C91AA9 /* EntangledButtonsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BCC66472A92578400C91AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCC66332A92578100C91AA9 /* EntangledButtons */;
+			targetProxy = 9BCC66462A92578400C91AA9 /* PBXContainerItemProxy */;
+		};
+		9BCC66512A92578400C91AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BCC66332A92578100C91AA9 /* EntangledButtons */;
+			targetProxy = 9BCC66502A92578400C91AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9BCC66572A92578400C91AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BCC66582A92578400C91AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9BCC665A2A92578400C91AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EntangledButtons/EntangledButtons.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EntangledButtons/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.help.-EntangledButtons.EntangledButtons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BCC665B2A92578400C91AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EntangledButtons/EntangledButtons.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EntangledButtons/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.help.-EntangledButtons.EntangledButtons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BCC665D2A92578400C91AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.help.-EntangledButtons.EntangledButtonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntangledButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntangledButtons";
+			};
+			name = Debug;
+		};
+		9BCC665E2A92578400C91AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.help.-EntangledButtons.EntangledButtonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntangledButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntangledButtons";
+			};
+			name = Release;
+		};
+		9BCC66602A92578400C91AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.help.-EntangledButtons.EntangledButtonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EntangledButtons;
+			};
+			name = Debug;
+		};
+		9BCC66612A92578400C91AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.help.-EntangledButtons.EntangledButtonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EntangledButtons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCC662F2A92578100C91AA9 /* Build configuration list for PBXProject "EntangledButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC66572A92578400C91AA9 /* Debug */,
+				9BCC66582A92578400C91AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC66592A92578400C91AA9 /* Build configuration list for PBXNativeTarget "EntangledButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC665A2A92578400C91AA9 /* Debug */,
+				9BCC665B2A92578400C91AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC665C2A92578400C91AA9 /* Build configuration list for PBXNativeTarget "EntangledButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC665D2A92578400C91AA9 /* Debug */,
+				9BCC665E2A92578400C91AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC665F2A92578400C91AA9 /* Build configuration list for PBXNativeTarget "EntangledButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC66602A92578400C91AA9 /* Debug */,
+				9BCC66612A92578400C91AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCC662C2A92578100C91AA9 /* Project object */;
+}
